@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Venue</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./Style_1.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <div class="container mean">
+      <nav class="navbar navbar-light">
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/866b/7ce8/df788510c2871db26e3baa298d4ff822?Expires=1655683200&Signature=Rprvp5pWK3feNzRdzE~5yz5doSKow9Vgz227Z4srqDKrr7zogSQnEvhmFeXB07cCyPHPXvIutF50zpQucGtAb8u4qIgWrZAoWtz5ML7Jmazg54wJj2L-FxV8skHgOvLwzsjKyJsiqchGcME3eKivlhfYhrPaEpVn54E7K9Dly7uNbJRDoRDj1zsmS8v5CdoD3KpW3wkKtugSsXJne4vmlkYkotx6wXGHJqFcFxbWCP4fYzcgHQ0EKqGfxw-uugkI34~7gf5L~y-IeMSSW-seOb6JGMB5qNWemZlyPk4m1kwvcG4oqlspefedoFs0-nzO5kUEGwp76ETjjux5KRfF-A__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+            height="68"
+            class="d-inline-block align-top"
+            alt=""
+          />
+        </a>
+      </nav>
+      <div class="row">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel carousel-dark slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="4"
+              aria-label="Slide 5"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="5"
+              aria-label="Slide 6"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="6"
+              aria-label="Slide 7"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6 col-12 my-auto scroll">
+                    <p class="fs-2 fw-bold lh-sm title1">
+                      Look up for available venues or facilities around you and
+                      book them instantly.
+                    </p>
+                    <button
+                      class="border-0 py-2 px-3 my-2"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal"
+                      style="
+                        background: linear-gradient(180deg, #ff320a, #fe8000);
+                        color: white;
+                        border-radius: 14px;
+                      "
+                    >
+                      Know more <i class="bi bi-arrow-right"></i>
+                    </button>
+                  </div>
+                  <div class="col-md-6 col-12">
+                    <img src="1.png" class="d-block w-100 h-100" alt="..." />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6 col-12 my-auto scroll">
+                    <p class="fs-2 fw-bold lh-sm title1">
+                      Get married in a nice wedding hall of your choice
+                    </p>
+                    <button
+                      class="border-0 py-2 px-3 my-2"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal"
+                      style="
+                        background: linear-gradient(180deg, #ff320a, #fe8000);
+                        color: white;
+                        border-radius: 14px;
+                      "
+                    >
+                      Know more <i class="bi bi-arrow-right"></i>
+                    </button>
+                  </div>
+                  <div class="col-md-6 col-12">
+                    <img src="2.png" class="d-block w-100 h-100" alt="..." />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6 col-12 my-auto scroll">
+                    <p class="fs-2 fw-bold lh-sm title1">
+                      Play your favorite sports on a field or courts near you
+                    </p>
+                    <button
+                      class="border-0 py-2 px-3 my-2"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal"
+                      style="
+                        background: linear-gradient(180deg, #ff320a, #fe8000);
+                        color: white;
+                        border-radius: 14px;
+                      "
+                    >
+                      Know more <i class="bi bi-arrow-right"></i>
+                    </button>
+                  </div>
+
+                  <div class="col-md-6 col-12">
+                    <img src="3.png" class="d-block w-100 h-100" alt="..." />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6 col-12 my-auto scroll">
+                    <p class="fs-2 fw-bold lh-sm title1">
+                      Practise your dance at a convenient space
+                    </p>
+                    <button
+                      class="border-0 py-2 px-3 my-2"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal"
+                      style="
+                        background: linear-gradient(180deg, #ff320a, #fe8000);
+                        color: white;
+                        border-radius: 14px;
+                      "
+                    >
+                      Know more <i class="bi bi-arrow-right"></i>
+                    </button>
+                  </div>
+
+                  <div class="col-md-6 col-12">
+                    <img src="4.png" class="d-block w-100 h-100" alt="..." />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6 col-12 my-auto scroll">
+                    <p class="fs-2 fw-bold lh-sm title1">
+                      Organise your team lunch at nearby restaurant
+                    </p>
+                    <button
+                      class="border-0 py-2 px-3 my-2"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal"
+                      style="
+                        background: linear-gradient(180deg, #ff320a, #fe8000);
+                        color: white;
+                        border-radius: 14px;
+                      "
+                    >
+                      Know more <i class="bi bi-arrow-right"></i>
+                    </button>
+                  </div>
+
+                  <div class="col-md-6 col-12">
+                    <img src="5.png" class="d-block w-100 h-100" alt="..." />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6 col-12 my-auto scroll">
+                    <p class="fs-2 fw-bold lh-sm title1">
+                      Arrange seminar or workshop In a condusive place
+                    </p>
+                    <button
+                      class="border-0 py-2 px-3 my-2"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal"
+                      style="
+                        background: linear-gradient(180deg, #ff320a, #fe8000);
+                        color: white;
+                        border-radius: 14px;
+                      "
+                    >
+                      Know more <i class="bi bi-arrow-right"></i>
+                    </button>
+                  </div>
+                  <div class="col-md-6 col-12">
+                    <img
+                      src="6.png"
+                      class="d-block w-100 h-100 pic"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6 col-12 my-auto scroll">
+                    <p class="fs-2 fw-bold lh-sm title1">
+                      Get your band together in a cool jamming studio
+                    </p>
+                    <button
+                      class="border-0 py-2 px-3 my-2"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal"
+                      style="
+                        background: linear-gradient(180deg, #ff320a, #fe8000);
+                        color: white;
+                        border-radius: 14px;
+                      "
+                    >
+                      Know more <i class="bi bi-arrow-right"></i>
+                    </button>
+                  </div>
+
+                  <div class="col-md-6 col-12">
+                    <img src="7.png" class="d-block w-100 h-100" alt="..." />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row py-5">
+        <div class="col part">
+          <img src="iphone1.png" class="" alt="..." />
+        </div>
+        <div class="col my-auto">
+          <div class="container">
+            <p class="fs-5 fst-normal title">Coming soon</p>
+            <p class="fs-2 fw-bold lh-sm title1">
+              Book using Venue mobile apps or website.
+            </p>
+
+            <button class="btn btn-dark p-1 my-1">
+              <div class="row">
+                <div class="col-3">
+                  <img src="gplay.png" width="50" height="50" />
+                </div>
+                <div class="col">
+                  <span>Comming soon</span>
+                  <p class="m-0 fs-3 fw-bold lh-sm title1 d-none d-sm-block">
+                    Play store
+                  </p>
+                </div>
+              </div>
+            </button>
+
+            <button class="btn btn-dark p-1 my-1">
+              <div class="row">
+                <div class="col-3">
+                  <img src="applew.png" width="40" height="50" />
+                </div>
+                <div class="col">
+                  <span>Comming soon</span>
+                  <p class="m-0 fs-3 fw-bold lh-sm title1 d-none d-sm-block">
+                    Apple store
+                  </p>
+                </div>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="row py-5">
+        <div class="col my-auto">
+          <div class="container">
+            <p class="fs-5 fst-normal title">Our aim</p>
+            <p class="fs-2 fw-bold lh-sm title1">
+              Reducing the hassle for choosing the best venue suited for your
+              activity and event.
+            </p>
+            <div>
+              Most of the time we spent hours searching for the right venue for
+              our leisure and special event. We have to make numerous phone
+              calls to check the availability, pricing and amenities offered at
+              the venue.
+            </div>
+            <br />
+            <div>
+              We aim to reduce this gap so that venue booking is a lot easier
+              for the user. We also aim to increase market access for venue
+              owners, while continuously support digitalisation of venue and
+              facility management
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <img src="girl1.png" class="float-end" alt="..." />
+        </div>
+      </div>
+      <div class="row my-4 p-2 shadow" style="background: #fcebe0">
+        <p class="fs-3 fw-bold title">Are you a Venue owner?</p>
+        <p class="fs-2 fw-bold lh-sm title1">
+          Be among the first Venue to be listed in our mobile application and
+          website to enjoy a discounted fee.
+        </p>
+        <div class="row">
+          <div class="col">
+            Campaign ends 30th September 2022.
+            <a href="" style="color: black">Terms & conditions apply.</a>
+          </div>
+          <div class="col">
+            <button
+              class="border-0 p-2 float-end"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+              style="
+                background: linear-gradient(180deg, #ff320a, #fe8000);
+                color: white;
+                border-radius: 14px;
+              "
+            >
+              Let’s get started >
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mb-5 py-5">
+        <p class="fs-4 fw-bold title">Venue Categories:</p>
+        <p class="fs-3 fw-bold lh-sm title1">
+          Auditorium . Dancing Studios . Jamming Studios . Multi Purpose Hall<br />
+          Private Wedding Hall . Meeting Rooms . Seminar Rooms<br />
+          Sports Facilities . Restaurants . Outdoor Space .
+        </p>
+      </div>
+    </div>
+    <!-- Button trigger modal -->
+    <!-- Modal -->
+    <form method="post" action="/action_page.php">
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header border-0">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body px-5 py-0">
+              <div class="mb-3">
+                <label
+                  for="exampleFormControlInput1"
+                  class="form-label mb-1 pop"
+                  >First name</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder=""
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label
+                  for="exampleFormControlInput1"
+                  class="form-label mb-1 pop"
+                  >Last name</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder=""
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label
+                  for="exampleFormControlInput1"
+                  class="form-label mb-1 pop"
+                  >Phone number</label
+                >
+                <input
+                  type="number"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder=""
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label
+                  for="exampleFormControlInput1"
+                  class="form-label mb-1 pop"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder=""
+                  required
+                />
+              </div>
+              <div class="my-4 text-center">
+                <button
+                  type="submit"
+                  class="px-5 py-2 border-0"
+                  style="
+                    background: linear-gradient(180deg, #ff320a, #fe8000);
+                    color: white;
+                    border-radius: 14px;
+                  "
+                >
+                  Registere
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+    <footer class="text-center m-0 py-3" style="background: #fcebe0">
+      <p class="m-0">
+        Copyright &copy; 2022-2022 Venue Inc - All Rights Reserved
+      </p>
+    </footer>
+    <!-- <footer style="background:#fcebe0">
+      <div class="container py-5">
+      <div class="row">
+        <div class="col">
+          <img src="https://s3-alpha-sig.figma.com/img/866b/7ce8/df788510c2871db26e3baa298d4ff822?Expires=1655683200&Signature=Rprvp5pWK3feNzRdzE~5yz5doSKow9Vgz227Z4srqDKrr7zogSQnEvhmFeXB07cCyPHPXvIutF50zpQucGtAb8u4qIgWrZAoWtz5ML7Jmazg54wJj2L-FxV8skHgOvLwzsjKyJsiqchGcME3eKivlhfYhrPaEpVn54E7K9Dly7uNbJRDoRDj1zsmS8v5CdoD3KpW3wkKtugSsXJne4vmlkYkotx6wXGHJqFcFxbWCP4fYzcgHQ0EKqGfxw-uugkI34~7gf5L~y-IeMSSW-seOb6JGMB5qNWemZlyPk4m1kwvcG4oqlspefedoFs0-nzO5kUEGwp76ETjjux5KRfF-A__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" 
+             height="68" class="d-inline-block align-top " alt="">
+            <div class="px-3">Follow us on</div>
+            <div class="col-6 shadow mt-2 mx-3 bar" style="background: linear-gradient(180deg,#FF320A,#FE8000);border-radius: 14px;">
+              <button class="btn border-0"><i class="bi bi-twitter"></i></button>
+              <button class="btn border-0"><i class="bi bi-instagram"></i></button>
+              <button class="btn border-0"><i class="bi bi-youtube"></i></button>
+            </div>
+        </div>
+        <div class="col lh-sm foot">
+          <p class="fs-5 fst-normal title">About Venue</p>
+          <p>About Us</p>
+          <p>Pricing</p>
+          <p>What’s new</p>
+          <p>Blogs and Testimonials</p>
+
+        </div>
+        <div class="col lh-sm foot">
+          <p class="fs-5 fst-normal title">Terms of use</p>
+          <p>Privacy policy</p>
+          <p>Terms and conditions</p>
+          <p>Cookie Policy</p>
+
+        </div>
+        <div class="col lh-sm foot">
+          <p >Subscribe to the newsletter now  to get updates</p>
+          <p>By clicking Subscribe, you have agreed to our  Privacy <a href="#" class=" text-dark">Policy</a> and <a class=" text-dark" href="#">Terms & Conditions</a> </p>
+          <div class="input-group mb-3">
+            <input style="font-size: 14px" type="text" class="form-control" placeholder="Enter your email address" aria-label="Enter your email address" aria-describedby="basic-addon2">
+            <span style="background: linear-gradient(180deg,#FF320A,#FE8000);color:white;" class="input-group-text" id="basic-addon2">Subscribe</span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    </footer> -->
+  </body>
+</html>
