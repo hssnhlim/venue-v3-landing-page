@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "text": "Auditorium",
+        "image": "src/assets/img/venue-category-icon/auditorium-icon.png"
+    },
+    {
+        "id": 2,
+        "text": "Dancing Studios",
+        "image": "src/assets/img/venue-category-icon/dancing-studios-icon.png"
+    },
+    {
+        "id": 3,
+        "text": "Event Hall",
+        "image": "src/assets/img/venue-category-icon/event-hall-icon.png"
+    },
+    {
+        "id": 4,
+        "text": "Jamming Studios",
+        "image": "src/assets/img/venue-category-icon/jamming-studios-icon.png"
+    },
+    {
+        "id": 5,
+        "text": "Outdoor Space",
+        "image": "src/assets/img/venue-category-icon/outdoor-space-icon.png"
+    },
+    {
+        "id": 6,
+        "text": "Wedding Hall",
+        "image": "src/assets/img/venue-category-icon/wedding-hall-icon.png"
+    },
+    {
+        "id": 7,
+        "text": "Meeting Rooms",
+        "image": "src/assets/img/venue-category-icon/meeting-rooms-icon.png"
+    },
+    {
+        "id": 8,
+        "text": "Seminar Rooms",
+        "image": "src/assets/img/venue-category-icon/seminar-rooms-icon.png"
+    },
+    {
+        "id": 9,
+        "text": "Sports Facilities",
+        "image": "src/assets/img/venue-category-icon/sport-facilities-icon.png"
+    },
+    {
+        "id": 10,
+        "text": "Restaurants",
+        "image": "src/assets/img/venue-category-icon/restaurants-icon.png"
+    }
+]

@@ -1,0 +1,72 @@
+{
+    "nav": {
+        "home": "Utama",
+        "join-us": "Sertai Kami",
+        "our-aim": "Matlamat Kami"
+    },
+    "home": {
+        "section1": {
+            "title": "Senaraikan venue anda sendiri atau tempah venue yang anda mahu dengan aplikasi mudah alih kami.",
+            "subtitle": "Muat Turun Sekarang"
+        },
+        "section2": {},
+        "join-us": {
+            "title": "Adakah anda pemilik venue?",
+            "subtitle": "Sertai senarai venue yang semakin bertambah dalam aplikasi kami, dan uruskan tempahan pelanggan anda serta dedahkan venue anda ke pasaran yang lebih luas."
+        },
+        "our-aim": {
+            "title": "Matlamat Kami",
+            "subtitle1": "Memudahkan anda untuk memilih venue terbaik yang sesuai untuk majlis dan aktiviti anda.",
+            "subtitle2": "Selalunya kita menghabiskan masa berjam-jam mencari tempat yang sesuai untuk melakukan aktiviti sambilan mahupun majlis istimewa. Kita perlu membuat banyak panggilan telefon untuk mengetahui kekosongan, harga dan kemudahan yang disediakan di tempat tersebut.",
+            "subtitle3": "Kami berhasrat untuk memudahkan pengguna untuk menempah venue yang bersesuaian. Kami juga mahu membantu pemilik venue untuk menembus pasaran yang lebih luas serta dalam masa yang sama menggalakkan pendigitalan dalam pengurusan venue dan fasiliti."
+        }
+    },
+    "get-started": {
+        "section1": {
+            "title": "Mulakan",
+            "step-1": "Muat turun dan lancarkan Venue: App. Berikut adalah pautan untuk",
+            "step-1-1": "dan",
+            "step-1-2": "untuk anda.",
+            "step-2": "Daftar sebagai Venue Owner. Sediakan NRIC dan sijil SSM syarikat anda.",
+            "step-3": "Mulakan mendaftar venue anda dan isi maklumat yang diperlukan. Sediakan gambar-gambar menarik untuk dimuat naik.",
+            "step-4": "Tunggu pengesahan venue anda (1 - 3 hari).",
+            "step-5": "Kongsikan kepada pelanggan supaya mereka menempah venue anda melalui Venue: App!"
+        },
+        "section2": {
+            "noBold": {
+                "title": "Apa lagi yang perlu anda ketahui",
+                "title-1": "Yuran",
+                "subtitle-1": "Menyeneraikan venue anda dalam aplikasi ini",
+                "title-2": "Komisen",
+                "subtitle-2": "jika jumlah keseluruhan per resit melebihi",
+                "title-3": "Transaksi",
+                "subtitle-2-1": "jika jumlah keseluruhan per resit adalah",
+                "subtitle-3": "Pelanggan bayar melalui aplikasi ke akaun syarikat kami dan kami akan pindahkan bayaran kepada anda dalam",
+                "subtitle-3-1": "selepas pelanggan buat bayaran tersebut.",
+                "subtitle-4": "Setiap venue yang didaftarkan"
+            },
+            "bold": [
+                "adalah percuma",
+                "5%",
+                "RM 40.00",
+                "10%",
+                "RM 40.00 atau lebih rendah",
+                "dua hari perniagaan (T+2)",
+                "dikecualikan komisen untuk 20 tempahan pertama."
+            ],
+            "last": {
+                "title-1": "Layari",
+                "link": "terma dan syarat",
+                "title-2": "untuk maklumat lebih lanjut."
+            }
+        }
+    },
+    "footer": {
+        "title-1": "Hak Cipta © 2024 Venue List Sdn Bhd (1466652-M) - Hak Cipta Terpelihara",
+        "link-1": "Terma & Syarat",
+        "link-2": "Polisi Privasi"
+    },
+    "get-started-btn": {
+        "title": "Mulakan"
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "nav": {
+        "home": "Home",
+        "join-us": "Join Us",
+        "our-aim": "Our Aim"
+    },
+    "home": {
+        "section1": {
+            "title": "List your own venue or book your desired venue with our mobile app.",
+            "subtitle": "Download Now"
+        },
+        "section2": {},
+        "join-us": {
+            "title": "Are you a venue owner?",
+            "subtitle": "Join our growing list of venues listed in our mobile application, manage your customer bookings and be exposed to broader market."
+        },
+        "our-aim": {
+            "title": "Our Aim",
+            "subtitle1": "Reducing the hassle for choosing the best venue suited for your activity and event.",
+            "subtitle2": "Most of the time we spent hours searching for the right venue for our leisure and special event. We have to make numerous phone calls to check the availability, pricing and amenities offered at the venue.",
+            "subtitle3": "We aim to reduce this gap so that venue booking is a lot easier for the user. We also aim to increase market access for venue owners, while continuously support digitalization of venue and facility management."
+        }
+    },
+    "get-started": {
+        "section1": {
+            "title": "Get Started",
+            "step-1": "Download and launch Venue: app. Here is the link for",
+            "step-1-1": "and",
+            "step-1-2": "for you.",
+            "step-2": "Sign up as Venue Owner. Prepare your NRIC and company SSM certificate.",
+            "step-3": "Start creating your venue and fill in the details required. Prepare nice photos to upload.",
+            "step-4": "Wait for your venue verification (1 - 3 days)",
+            "step-5": "Inform your customer so they book your venue through the app!"
+        },
+        "section2": {
+            "noBold": {
+                "title": "What else you need to know",
+                "title-1": "Fee",
+                "subtitle-1": "Listing out your venue in the app is",
+                "title-2": "Commission",
+                "subtitle-2": "if the total amount per receipt is above",
+                "title-3": "Settlement",
+                "subtitle-2-1": "if the total amount per receipt is",
+                "subtitle-3": "Customer makes payment through the app to our company banking account and we will remit the payment to you within",
+                "subtitle-3-1": "after customer make that payment",
+                "subtitle-4": "Each venue registered are"
+            },
+            "bold": [
+                "free of charge",
+                "5%",
+                "RM 40.00",
+                "10%",
+                "RM 40.00 or lower",
+                "two business days (T+2)",
+                "commission-free for the first 20 bookings."
+            ],
+            "last": {
+                "title-1": "Read our",
+                "link": "terms and conditions",
+                "title-2": "for more information."
+            }
+        }
+    },
+    "footer": {
+        "title-1": "Copyright © 2024 Venue List Sdn Bhd (1466652-M) - All Rights Reserved",
+        "link-1": "Terms & Conditions",
+        "link-2": "Privacy Policy"
+    },
+    "get-started-btn": {
+        "title": "Get Started"
+    }
+}
